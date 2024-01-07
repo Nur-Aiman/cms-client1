@@ -1,0 +1,62 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@headlessui/react": "^1.7.15",
+    "@mui/lab": "^5.0.0-alpha.133",
+    "@syncfusion/ej2-react-calendars": "^21.2.9",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.3.0",
+    "date-fns": "^2.30.0",
+    "date-fns-tz": "^2.0.0",
+    "js-cookie": "^3.0.5",
+    "jwt-decode": "^3.1.2",
+    "postcss": "^8.4.24",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-calendar": "^4.3.0",
+    "react-datetime-picker": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.5",
+    "react-router-dom": "^6.11.2",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "react-stripe-checkout": "^2.6.3",
+    "slick-carousel": "^1.8.1",
+    "tailwindcss": "^3.3.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "cross-env DISABLE_ESLINT_PLUGIN=true react-scripts start",
+    "build": "cross-env DISABLE_ESLINT_PLUGIN=true react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
